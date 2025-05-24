@@ -1,0 +1,188 @@
+(footprint "691412120002B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-TBL Serie 412B - 3.50 mm Screwless 45° Entry - 2.1 mm 2 Wires <br></b>Max Height = 12.8mm , Pitch 3.5mm , 2pins")
+	(property "Reference" "REF**"
+		(at -1 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "5d802cf8-476e-46e3-a707-0127bd620e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691412120002B"
+		(at 3.755 8.865 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ffde54a-2e1d-487b-9128-87d976ea1801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fdc4074-d433-40df-8b18-a68716defa47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79b49621-302c-4591-8ea2-3ce8255089dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45ff2865-743a-4d3e-9dc0-a261536b959b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.25 -4.9)
+		(end 3.45 -4.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cf03eaf-9244-4ef3-a0a4-78c6c8972d94")
+	)
+	(fp_line
+		(start -5.25 7.3)
+		(end -5.25 -4.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "304e9dc1-7780-40bd-aaa7-35f0ecfc2b6e")
+	)
+	(fp_line
+		(start 3.45 -4.9)
+		(end 3.45 7.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ffc0b28-99a1-41c2-b04a-faf090d74b6b")
+	)
+	(fp_line
+		(start 3.45 7.3)
+		(end -5.25 7.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bb4965a-f9cf-4a9f-b73e-f2796766b527")
+	)
+	(fp_circle
+		(center -3.5 3.7)
+		(end -3.4 3.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0ba466b0-1a62-428e-8197-a46f20daa1b8")
+	)
+	(fp_poly
+		(pts
+			(xy -5.45 -5.1) (xy 3.65 -5.1) (xy 3.65 7.5) (xy -5.45 7.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "faa4930f-c6e5-41af-97d2-596399617f48")
+	)
+	(fp_line
+		(start -5.15 -4.8)
+		(end 3.35 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8ad90d1-9acf-4673-834c-d32cf146bc6d")
+	)
+	(fp_line
+		(start -5.15 7.2)
+		(end -5.15 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d7c2aa3-9699-4de7-b378-7e846f10abf5")
+	)
+	(fp_line
+		(start 3.35 -4.8)
+		(end 3.35 7.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42959f14-e6c6-452c-a0fc-dc345d387011")
+	)
+	(fp_line
+		(start 3.35 7.2)
+		(end -5.15 7.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee39631b-a771-4f20-8517-18612165f1b3")
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 2.6)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3d765319-a9b0-4610-84f8-a3f02bc5c018")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 -2.6)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7a6c1c8c-9173-43e4-80be-cd65e0f10367")
+	)
+)
